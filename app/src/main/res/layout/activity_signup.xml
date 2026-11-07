@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#0B1220">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SafeStream"
+            android:textColor="#4DE2C5"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create your account"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join SafeStream and protect your privacy"
+            android:textColor="#94A3B8"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/etSignupName"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Full name"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:padding="14dp"
+            android:backgroundTint="#4DE2C5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#94A3B8" />
+
+        <EditText
+            android:id="@+id/etSignupEmail"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="14dp"
+            android:hint="Email address"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:padding="14dp"
+            android:backgroundTint="#4DE2C5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#94A3B8" />
+
+        <EditText
+            android:id="@+id/etSignupPassword"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="14dp"
+            android:hint="Create password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:padding="14dp"
+            android:backgroundTint="#4DE2C5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#94A3B8" />
+
+        <EditText
+            android:id="@+id/etSignupConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="14dp"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:padding="14dp"
+            android:backgroundTint="#4DE2C5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#94A3B8" />
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:text="Create Account"
+            android:textColor="#0B1220"
+            android:textStyle="bold"
+            android:backgroundTint="#4DE2C5" />
+
+        <TextView
+            android:id="@+id/tvGoLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Already have an account? Login"
+            android:textColor="#4DE2C5"
+            android:textSize="15sp"
+            android:padding="10dp" />
+
+    </LinearLayout>
+</ScrollView>

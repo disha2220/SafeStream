@@ -1,0 +1,21 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files (Security)
+*.jks
+*.keystore
+
+# Google Services (if you add Firebase later)
+google-services.json
+build/
+.gradle/
+.idea/
+local.properties
